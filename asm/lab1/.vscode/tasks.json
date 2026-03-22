@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Сборка NASM",
+            "type": "shell",
+            "command": "nasm -f elf64 -g -F dwarf ${workspaceFolder}/program.asm -o ${workspaceFolder}/program.o && ld ${workspaceFolder}/program.o -o ${workspaceFolder}/program",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
