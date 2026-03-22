@@ -1,0 +1,7 @@
+*.o
+/cmake-build-*/
+ftxui/
+third_party/
+.idea/
+docs/
+.clang-tidy

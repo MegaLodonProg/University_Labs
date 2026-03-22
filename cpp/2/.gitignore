@@ -1,0 +1,5 @@
+*.o
+/cmake-build-*/
+.idea/
+docs/
+.clang-tidy
